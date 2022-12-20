@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="E-ticket.css">
+    <title>E-ticekting</title>
+    <div class="wrap">
+		<div class="container">
+				
+					<a class="navbar-brand" href="http://www.bookrajmonuments.in">
+						<img src="http://www.bookrajmonuments.in/public/public_site/images/topimage.png">
+					</a>
+		</div>
+	</div>
+    <fieldset>
+    <legend>
+    <head>
+        <marquee width="300" scrollamount="10" scrollhiding="800" loop="1000">
+        <h1>Start Exploring now!!</h1>
+        </marquee>
+    </head><br>
+    </legend>
+    
+    <h2>Register</h2>
+    <body class="ticket">
+    <form action="./index.html" method="POST">
+        <label for="yname">NAME</label>
+        <input type="text" name="yourname" id="yname" required><br><br>
+        <label for="yage">AGE</label>
+        <input type="number" name="age" id="yage" min="18" max="70" required><br><br>
+        <label for="num">Contact Number</label>
+        <input type="phone" name="yournum" id="num" pattern="[0,9]{0,9}" required><br><br> 
+        <label for="dcity">DESTINATION CITY</label>
+        <input list="city" name="cityname" id="dcity" placeholder="Enter the city name" required><br><br>
+        <datalist id="city">
+            <option value="Jodhpur"></option>
+            <option value="Udaipur"></option>
+            <option value="Ajmer"></option>
+            <option value="Bikaner"></option>
+            <option value="JAIPUR"></option>
+            <option value="Jaisalmer"></option>
+        </datalist>
+        <span>Would you like to book Hotel</span><br>
+        <input type="radio" name="yes" id="yes" value="yes">
+        <label for="yes">YES</label>
+        <input type="radio" name="yes" id="no" value="yes">
+        <label for="no">NO</label><br><br>
+    
+        <label for="yname">Number of Members</label>
+        <input type="number" name="yourname" id="yname" min="2" max="20" required><br><br>
+
+        <span>Meals</span><br><br>
+            <input type="radio" name="yes" id="yes" value="yes" required>
+            <label for="yes">YES</label>
+            <input type="radio" id="no" name="yes" value="yes">
+            <label type="no" id="no" value="yes">NO</label>
+            <br><br>
+            <label for="time">Duration</label><br>
+            <input type="range" name="time" id="time" min="1" max="4" required><br><br>
+        
+        <span>Pick & Drop Facility</span><br>
+        <input type="checkbox" name="yes" id="yes" value="yes" required>
+        <label for="yes">YES</label>
+        <input type="checkbox" name="yes" id="no" value="no"> 
+        <label for="checkbox">NO</label><br><br><hr>
+
+        <label for="extra">Any Further Requirement</label><br><br>
+        <textarea id="extra" name="extra" rows="8" cols="100"></textarea>
+        <br><br><hr>
+         
+        <input type="submit" value="submit"> 
+
+    </form>   
+    </body>
+</fieldset>
+<footer class="footer ftco-section ">
+    <div class="container">
+      <div class="row">
+         
+              <div class="row">
+                  <div class="firstimage">
+                      <p><img src="http://www.bookrajmonuments.in/public/public_site/images/payment_icon.jpg"></p>
+                  </div>
+                    <div class="secondimage">
+                      <a class="android_app_icon" href="https://play.google.com/store/apps/details?id=com.bookraj.monuments" target="_blank">
+                        <img src="http://www.bookrajmonuments.in/public/public_site/images/android-icon.png" width="200px" height="100px"></a>
+                      <a class="iphone_app_icon" href="https://apps.apple.com/in/app/bookrajmonuments/id1569429323" target="_blank">
+                        <img src="http://www.bookrajmonuments.in/public/public_site/images/iphone-icon.png" width="200px" height="100px"></a>
+                      
+                    </div>
+              </div>
+               
+              <p class="last">
+                  Copyright ©<script>document.write(new Date().getFullYear());</script>2022 Department of Archaeology &amp; Museums, Govt. of Rajasthan, All Rights Reserved.
+              </p>
+         </div>
+    </div>
+  </footer>
+</head>
+</html>

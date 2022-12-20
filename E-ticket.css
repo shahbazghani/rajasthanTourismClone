@@ -1,0 +1,27 @@
+.ticket{
+    background-image: url(https://wallpapercave.com/wp/wp8742242.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    display: block;
+}
+.ftco-section {
+    position: relative;
+}
+.last{
+    text-align: center;
+}
+.firstimage{
+    text-align: center;
+    display: block;
+}
+.secondimage{
+    text-align: center;
+    
+   
+}
